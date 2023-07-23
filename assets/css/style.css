@@ -1,0 +1,199 @@
+/*  - Fonts
+    - General
+    - Fonts
+    - Social Icon Hover
+    - Header And Navigation
+    - Slider
+    - About
+    - Price
+    - Parallax
+    - Contact
+    - Footer
+    - Media Queries   */
+/* !genaral */
+@import url("https://fonts.googleapis.com/css2?family=Explora&family=Lato:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Explora&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+	max-width: 1140px;
+}
+.navbar{
+  position: fixed !important;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  right: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .11);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .11);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .11);
+  min-height: 90px;
+  z-index: 1030;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+.navb ar img{
+  max-height: 60px;
+}
+  .navbar-expand-md .navbar-nav .nav-link {
+	padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important; 
+   color: rgba(41, 29, 29, 0.55);
+        font-size: .9rem;
+        font-weight: 600;
+        -webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out, opacity .3s ease-in-out;
+        transition: color .3s ease-in-out, background-color .3s ease-in-out, opacity .3s ease-in-out;
+        text-decoration: none;
+        letter-spacing: 0px;
+        padding: 1rem;
+    }
+.dropdown-item {
+    color: #3f51b5 !important;
+    font-size: .875rem;
+    font-weight: 700 !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+.dropdown-menu p{
+    font-size: .875rem;
+   color: rgb(75, 83, 91);
+    font-weight: 700 !important;
+    margin-top: 0 !important;
+    margin-left: 15px;
+}
+.dropdown-menu {
+	--bs-dropdown-min-width: 16rem;
+}
+  .nav-menu .nav-link:hover {
+    color: #9f55ff !important;
+    cursor: pointer;
+  }
+  .nav-icon {
+    text-align: end !important;
+  }
+  .nav-icon i{
+    font-size: 34px;
+    padding-left: 10px;
+     color: rgba(41, 29, 29, 0.55);
+  }
+  .top_contact_info .top_cont_num {
+	font-weight: 600;
+	font-size: 14px;
+   color: rgba(41, 29, 29, 0.55);
+}
+ .top_contact_info .top_cont_email {
+	color: #868e96;
+    font-weight: 400;
+font-size: 13px;
+}
+  @media (max-width: 576px) {
+    .nav-icon {
+   display: none;
+    }
+  }
+  #banner{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/bgsys.jpg)no-repeat center/cover;
+    padding: 185px;
+    position: relative;
+  }
+  .waves {
+    position: absolute;
+    left: 0;
+    top: 222px;
+  }
+  .banner-text{
+    text-align: center;
+  }
+  .banner-text h1{
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  @media (max-width: 990px) {
+  .banner-text h1{
+    margin-left: -192px;
+  }
+  .banner-text span{
+    margin-left: -192px;
+  }
+  }
+  .banner-text span{
+    font-family: 'Ubuntu', sans-serif;
+font-weight: 600;
+font-size: 3.8rem;
+color: #fff;
+  }
+  .btnn{
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+   background-color: #101480;
+   border: 2px;
+   border-color: #101480;
+text-decoration: none;
+letter-spacing: 1.17px;
+text-transform: uppercase;
+padding: .5rem 1.25rem;
+font-size: .75rem;
+line-height: 1.5;
+border-radius: 1.25rem;
+white-space: normal;
+text-align: left;
+  }
+.btnn:hover{
+ background-color: #1116a1;
+     -webkit-transition: all .3s ease;
+transition: all .3s ease;
+}
+#about{
+  padding-top: 80px;
+}
+.about-header h2{
+font-weight: 400;
+font-size: 2.875rem;
+}
+.about-header strong{
+  font-weight: 700 !important;
+  color: #f44336;
+}
+.about-header p{
+ font-size: 1.25rem;
+font-weight: 300;
+margin-top: 0px;
+margin-bottom: 30px;
+}
+.img-text img{
+  border-style: none;
+  max-width: 70px;
+margin-right: 10px;
+}
+.img-text h5{
+  font-size: 26px;
+color: #808080;
+font-weight: 700;
+}
+.about-text p{
+font-size: 1.05rem;
+font-weight: 300;
+margin: 1rem 0;
+}
