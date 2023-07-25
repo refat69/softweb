@@ -207,6 +207,10 @@ margin: 1rem 0;
 #serve{
   padding-top: 80px;
 }
+.sarve-img{
+  overflow: hidden;
+  width: 100% !important;
+}
 .sarve-text h3{
   font-size: 2rem;
   font-weight: 700;
